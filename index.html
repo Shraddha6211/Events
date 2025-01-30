@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Events in JS</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="btn1">
-            <button>Click Me!</button>
+            <button onclick="console.log('Button was clicked')">Click Me!</button>
         </div>
         <div class="btn2">
-            <button>Hover to Continue</button>
+            <button ondblclick="console.log('Button was clicked two times!!')">Hover to Continue</button>
         </div>
-        <div class="box1">
-
+        <div class="box1" onmouseover="console.log('You are inside the div of box1 class')" style="background-color: pink; border: 2px solid black; height: 100px; color: black;">
+        Hey there! I am a box.
         </div>
     </div>
 </body>
