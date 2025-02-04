@@ -20,5 +20,5 @@ box1.onclick=(evt)=>{
     console.log(evt)
     console.log(evt.type)
     console.log(evt.client)
-    
+    console.log(evt.clientX, evt.clientY)
 }
